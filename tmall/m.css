@@ -1,0 +1,43 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{ margin:0; width:100%;height: 100%;}
+img{ border:none; vertical-align:top;}
+a {text-decoration: none;}
+a,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  outline: none;
+  border:none;
+  border-radius:0;
+}
+　::-webkit-input-placeholder { /* WebKit browsers */
+　　color:#a6a6a6;
+　　}
+ul,h3,p,ol{margin: 0;padding: 0;}
+li{ list-style:none;}
+td,th{display:table-cell;}
+table{border-collapse: collapse; }
+body{  font-family:"Microsoft YaHei"; font-size:.6rem; overflow-x:hidden; color:#fff;}
+
+#wrap{width:100%;position: absolute;top: 0;bottom: 0;left: 0;right: 0;overflow: hidden;}
+.main{ width:100%;}
+.imgStyle{ width:100%;}
+.kvBd{ background:url(images/bgKv.jpg) no-repeat; background-size:cover; width:100%; height:9.1rem; position:relative;}
+.kvBd span{ position:absolute; left:.62rem; top:2.5rem; width:50%; display:inline-block; white-space:nowrap; font-size:.5rem; line-height:.7rem}
+.mesBd{ background:url(images/bgNeck.jpg) no-repeat; background-size:cover; width:100%;position:relative; padding-bottom:.4rem}
+.mesCon{ line-height:.6rem; overflow:hidden; font-size:0; width:100%; margin-bottom:.3rem; padding-left:1rem; -webkit-box-sizing: border-box;box-sizing: border-box; }
+.mesCon input{ vertical-align:middle; font-size:.65rem;}
+.mesCon input[type='text']{ width:9.75rem; height:1.6rem; border:2px solid #d21042; color:#a6a6a6; text-align:center; background:#fff; padding:0 .6rem; -webkit-box-sizing: border-box;box-sizing: border-box; margin-bottom:.3rem }
+.mesCon input[type='text']:nth-of-type(2){}
+
+.mesCon input[type='image']{ height:3.5rem; position:absolute; left:11.2rem; top:0;}
+
+.mesConTxt{ text-align:left; margin-left:1rem}
+.mesConTxt p{ }
+.mesConTxt p:nth-of-type(1){ color:#c95f00; margin-bottom:.45rem}
+.mesConTxt p:nth-of-type(2){ color:#2b9bc9; text-decoration:underline}
+
+
+
+
