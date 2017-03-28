@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+        #calendar {
+          /*  position: absolute;
+            padding: 5px;*/
+           /*  border: 1px solid #000000;
+           background: #8f3349;
+            display: none;*/
+        }
+
+        #todayTime {
+            padding: 5px 0;
+            font-size: 40px;
+            color: white;
+        }
+        #todayDate {
+            padding: 5px 0;
+            font-size: 24px;
+            color: #ffcf88;
+        }
+        #tools {
+            padding: 5px 0;
+            height: 30px;
+            color: white;
+        }
+        #tools .l {
+            float: left;
+        }
+        #tools .r {
+            float: right;
+        }
+       #calendar   table {
+            width: 100%;
+            color: white;
+        }
+        #calendar  table th {
+          width:90px; font-size:24px; color:#000
+        }
+		 #calendar table th.dataTitle{ color:#fe7300}
+        #calendar  table td {
+            text-align: center;
+            cursor: default;
+			font-size:24px; text-align:center; color:#000;
+        }
+        #calendar  table td.today {
+            background:#62bf4d;
+            color:#111111;
+        }
+
+ #calendar  table td{  width:90px; font-size:24px; text-align:center; margin-top:24px;}
+ #calendar  table td span{ display:block; color:#111111; background:#fff; width:60px; height:60px; line-height:60px; border-radius:30px;}
+ #calendar  table td span.active{ color:#fff; background:#01a4f3; background:#01a4f3 url(../images/ico_ico_si.png) no-repeat center 35px; }
+ #calendar  table td span.today{ background:#62bf4d}

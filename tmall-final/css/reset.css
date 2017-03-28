@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+body,html{ margin:0; width:100%;}
+img{ border:none; vertical-align:top;}
+a {text-decoration: none;}
+a,
+input {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  outline: none;
+  border:none;
+}
+ul,h3,p,ol{margin: 0;padding: 0;}
+li{ list-style:none;}
+td,th{display:table-cell;}
+table{border-collapse: collapse; }
+body{  font-family:"Microsoft YaHei UI"; font-size:20px; overflow-x:hidden; color:#000;}
+

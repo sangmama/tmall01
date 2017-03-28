@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+        #calendar {
+          /*  position: absolute;
+            padding: 5px;*/
+           /*  border: 1px solid #000000;
+           background: #8f3349;
+            display: none;*/
+        }
+
+        #todayTime {
+            padding: .125rem 0;
+            font-size: 1rem;
+            color: white;
+        }
+        #todayDate {
+            padding: .125rem 0;
+            font-size: .6rem;
+            color: #ffcf88;
+        }
+        #tools {
+            padding: 5px 0;
+            height: 30px;
+            color: white;
+        }
+        #tools .l {
+            float: left;
+        }
+        #tools .r {
+            float: right;
+        }
+       #calendar   table {
+            width: 90%;
+            color: white;
+			margin:0 auto;
+			 text-align:center
+        }
+        #calendar  table th {
+          width:2.125rem; font-size:.6rem; color:#000; border-bottom: 2px solid #f1f1f1;
+            padding-bottom: 4px;
+        }
+		 #calendar table th.dataTitle{ color:#fe7300}
+        #calendar  table td {
+          
+            cursor: default;
+			font-size:.6rem;  color:#000;
+			
+        }
+        #calendar  table td.today {
+            background:#62bf4d;
+            color:#111111;
+        }
+
+ #calendar  table td{  width:2.125rem; font-size:.6rem; text-align:center; margin-top:.6rem;}
+ #calendar  table td span{ display:inline-block; color:#111111; background:#fff; width:1.5rem; height:1.5rem; line-height:1.5rem; border-radius:.75rem;}
+ #calendar  table td span.active{ color:#fff; background:#01a4f3 url(../images/ico_ico_si.png) no-repeat center .8rem; background-size:.75rem .5rem }
+ #calendar  table td span.today{ background:#62bf4d}
